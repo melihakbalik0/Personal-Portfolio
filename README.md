@@ -28,14 +28,3 @@ This project is a dynamic, full-stack web portfolio designed to showcase my proj
 
 ---
 
-## 📸 Screenshots
-
-| User Interface | Admin Dashboard |
-| :---: | :---: |
-| ![Portfolio Home](assets/img/screenshots/portfolio.png) | ![Admin Dashboard](assets/img/screenshots/admin.png) |
-
----
-
-## ✉️ Contact
-
-Melih Talha Akbalık - [LinkedIn Profile] - [Your Email Address]
