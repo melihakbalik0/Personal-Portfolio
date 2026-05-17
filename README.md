@@ -1,44 +1,48 @@
----
+# 💻 Full-Stack Web Portfolio & Management System
 
-# Professional Portfolio & CMS 🚀
+This project is a dynamic, full-stack web portfolio designed to showcase my projects, skills, and professional background. It features a custom-built Administrative Dashboard that allows for real-time content management and dynamic updates.
 
-A high-performance, responsive portfolio ecosystem engineered to showcase technical expertise and manage content dynamically. This project features a custom-built **Content Management System (CMS)**, allowing for real-time project updates and lead management without touching the code.
-
-## 🌐 Live Preview
-View the live project here:  
-**[melihakbalik.free.nf](https://melihakbalik.free.nf/?i=1)**
+🔗 **Live Demo:** [https://melihakbalik.free.nf/?i=1](https://melihakbalik.free.nf/?i=1)
 
 ---
 
-## ✨ Key Features
+## 🚀 Features
 
-*   **Dynamic Content Engine:** Projects and services are fetched dynamically from a MySQL database using **PHP 8.x** and **AJAX** for a seamless, no-reload experience.
-*   **Custom Admin Dashboard:** A secure, password-protected management interface to add, edit, or delete projects and monitor incoming contact messages.
-*   **Advanced UI/UX:**
-    *   **Intersection Observer API:** Used for high-performance scroll-triggered animations.
-    *   **Adaptive Dark Mode:** Theme persistence achieved via browser cookies for a consistent user experience.
-    *   **Modern Layouts:** Built with CSS Grid and Flexbox for full responsiveness across all device tiers.
-*   **Full-Stack Security:** Implements **PDO (PHP Data Objects)** with prepared statements to prevent SQL injection, alongside comprehensive client-side and server-side form validation.
+### 🌐 Client Side (Portfolio)
+* **Dynamic Project Showcase:** Automatically fetches and displays the latest projects and case studies from the database.
+* **About & Skills Section:** Features dynamic skill bars and professional summaries that can be updated instantly.
+* **Contact Form:** A fully functional and secure messaging system for visitors and potential recruiters to reach out.
 
----
-
-## 🛠️ Technology Stack
-
-| Layer | Technologies |
-| :--- | :--- |
-| **Frontend** | HTML5, CSS3 (Modern ES6+), Vanilla JavaScript |
-| **Backend** | PHP 8.x (Modular Architecture) |
-| **Database** | MySQL (Relational Schema Design) |
-| **Tools** | Git, GitHub, PDO for Security |
-| **Hosting** | InfinityFree |
+### 🔐 Administrative Dashboard (Admin Panel)
+* **Secure Authentication:** Session-based secure login system to restrict access to unauthorized users.
+* **Content Management (CRUD):** Complete control to Add, Read, Update, and Delete projects, skills, and personal information directly from the panel.
+* **Message Center:** Centralized inbox to view incoming inquiries, manage read/unread statuses, and monitor form submissions.
 
 ---
 
-## 📁 Project Architecture
-```bash
-├── /admin      # Authentication logic & CMS Dashboard
-├── /api        # RESTful-style endpoints for data fetching
-├── /assets     # Optimized CSS, JS logic, and media assets
-├── /includes   # Database config and security middleware
-├── index.php   # Main entry point & dynamic landing page
-└── schema.sql  # Relational database structure
+## 🛠️ Tech Stack
+
+* **Backend:** PHP (Handles dynamic routing, form processing, secure sessions, and business logic)
+* **Database:** MySQL (Relational database design for structured data storage)
+* **Frontend:** HTML5, CSS3, JavaScript / Bootstrap (Responsive and modern user interface)
+
+---
+
+## 📦 Local Installation & Setup
+
+To run this project locally on your machine, follow these setup steps:
+
+### 1. Prerequisites
+* XAMPP, WampServer, or MAMP (to provide the local PHP and MySQL environment)
+
+### 2. Database Configuration
+1. Navigate to `localhost/phpmyadmin` in your browser.
+2. Create a new database (e.g., `portfolio_db`).
+3. Import the provided `.sql` file (e.g., `database.sql`) into your newly created database.
+4. Update your project's database configuration file (`config.php` or `connect.php`) with your local credentials:
+
+```php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db_name = "portfolio_db";
