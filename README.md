@@ -34,11 +34,7 @@ The system integrates all layers of web development covered throughout the acade
 
 ---
 
-## 📸 Project Interface Preview
 
-| Client-Side Portfolio | Administrative Dashboard |
-| :---: | :---: |
-| ![Portfolio Home](assets/img/screenshots/portfolio.png) | ![Admin Dashboard](assets/img/screenshots/admin.png) |
 
 ---
 
@@ -48,7 +44,7 @@ The system integrates all layers of web development covered throughout the acade
 
 ---
 
-## ✉️ Contact & Professional Identity
+
 
 **Melih Talha Akbalık**
 * **LinkedIn:** https://www.linkedin.com/in/melih-akbalık/
