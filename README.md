@@ -1,15 +1,5 @@
 ---
 
-## 🛡️ License
-This project is open-source and available under the **MIT License**.
-
----
-
-### 💡 Quick Note
-If you're using this as a template, remember to update the `/includes/config.php` with your own database credentials to getThis version is polished with a more professional tone, better visual hierarchy, and a focus on the engineering quality of the project. It’s ready to be copy-pasted directly into your `README.md`.
-
----
-
 # Professional Portfolio & CMS 🚀
 
 A high-performance, responsive portfolio ecosystem engineered to showcase technical expertise and manage content dynamically. This project features a custom-built **Content Management System (CMS)**, allowing for real-time project updates and lead management without touching the code.
